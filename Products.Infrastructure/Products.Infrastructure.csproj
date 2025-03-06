@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Products.Application\Products.Application.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Extensions\" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <ItemGroup>
+        <ProjectReference Include="..\Products.Domain\Products.Domain.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="DTOs\" />
+        <Folder Include="Extensions\" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="MediatR" />
+    </ItemGroup>
+</Project>

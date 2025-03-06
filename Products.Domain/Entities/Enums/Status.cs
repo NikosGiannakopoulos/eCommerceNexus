@@ -1,10 +1,10 @@
 namespace Products.Domain.Entities.Enums
 {
-    enum Status
+    public enum Status
     {
-        Active,
-        Inactive,
+        Available,
+        Pending,
+        OutOfStock,
         Discontinued,
-        OutOfStock
     }
 }
